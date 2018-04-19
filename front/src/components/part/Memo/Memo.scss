@@ -1,0 +1,54 @@
+.memo-wrapper{
+    padding-top : 1px;
+    padding-bottom : 1px;
+    width : 50%;
+    margin : 0 auto;
+    margin-top : 1.5rem;
+    margin-bottom : 3rem;
+    background-color : white;
+    box-shadow: 0 8px 38px rgba(133, 133, 133, 0.9), 0 5px 12px rgba(133, 133, 133,0.9);
+}
+
+.memo-header{
+    margin-top : 1rem;
+    margin-left : 1rem;
+    margin-right : 1rem;
+}
+
+.memo-title{
+    display: flex;
+}
+
+.memo-user{
+    width: 7rem;
+}
+
+.memo-day{
+    font-size: 1rem;
+    color : #8C8C8C;
+    margin-left : 2rem;
+    width: 20rem;
+}
+
+.memo-option{
+    position:relative;
+    left: 7rem;
+}
+
+.memo-article{
+    margin-top : 0.5rem;
+    margin-left : 1rem;
+    margin-right : 1rem;
+    margin-bottom : 0.5rem;
+}
+
+.footer{
+    border-top: 1px solid #ECECEC;
+    height: 45px;
+
+    .footer-arti{
+        margin-top: 0.7rem;
+        margin-bottom : 0.7rem;
+        margin-left : 1rem;
+    }
+}

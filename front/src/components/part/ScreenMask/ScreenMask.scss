@@ -1,0 +1,31 @@
+.screen-mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom : 0;
+    background-color: rgba(150,150,150,0.5);
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper{
+    width : 480px;
+    margin : 0 auto;
+    background-color : #3e8cb9;
+    height : 490px;
+    display: flex;
+    align-items: center;
+}
+
+.screen-input{
+    width : 400px;
+    height : 429px;
+    margin : 0 auto;
+    margin-top : 3rem;
+    margin-bottom : 3rem;
+    padding-left : 2.5rem;
+    padding-right : 2rem;
+    padding-top : 0.8rem;
+    background-color : white;
+}

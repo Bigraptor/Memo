@@ -1,0 +1,20 @@
+.edge{
+    background: linear-gradient(to right bottom,#5eb1d8,#5eb1d1,#5eb1d8);
+}
+
+.wrapper{
+    width : 1200px;
+    margin : 0 auto;
+}
+
+.memo{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top : 1px; ///// 마진병합으로인한..
+    padding-bottom : 1px;
+}
+
+.memo-write{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top : 1px;
+    padding-bottom : 1px;
+}

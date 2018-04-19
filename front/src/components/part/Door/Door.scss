@@ -1,0 +1,85 @@
+.door{
+    display: flex;
+    justify-content: space-between;
+    height : 44rem;
+}
+
+.door-write{
+    margin-left: 4rem;
+}
+
+.door-image{
+    margin-right : 9rem;
+    background-color: #58919A;
+    height: 100%;
+    width: 30%;
+    box-shadow: 0 8px 38px rgba(133, 133, 133, 0.9), 0 5px 12px rgba(133, 133, 133,0.6);
+}
+
+.door-image-wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.door-image-write{
+    border: 4px solid rgba(230,220,210,0.9);
+    width : 65%;
+    height : 3rem;
+    display: flex;
+    align-items: center;
+    transition : all 0.2s ease-in;
+    justify-content: center;
+    font-weight : 900;
+    font-size: 1.2rem;
+    margin-top : 2rem;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #8EC7D0;
+        box-shadow: 0 8px 38px rgba(133, 133, 133, 0.6), 0 5px 12px rgba(133, 133, 133,0.6);
+        color : black;
+        font-weight : 900;
+        border: 4px solid white;
+    }
+}
+
+.door-image-first{
+    height: 20rem;
+    width: 33rem;
+    margin-top : 4rem;
+    position: relative;
+    right: -4.5rem;
+    box-shadow: 0 8px 38px rgba(133, 133, 133, 0.9), 0 5px 12px rgba(133, 133, 133,0.9);
+    
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.door-image-second{
+    margin-top: 3rem;
+    height: 32%;
+    width: 60%;
+
+    img{
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 8px 38px rgba(133, 133, 133, 0.9), 0 5px 12px rgba(133, 133, 133,0.9);
+    }
+}
+
+.write-title{
+    font-size: 3.5rem;
+    margin-top : 8rem;
+    margin-bottom : 3rem;
+    font-family: 'Jua', sans-serif;
+    color : black;
+}
+
+.write-arti{
+    font-family: 'Jua', sans-serif;
+    color : #5D5D5D;
+    font-size: 1.4rem;
+}
